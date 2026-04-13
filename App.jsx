@@ -2,8 +2,10 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 /* ---------------- IMAGES (SAFE UNSPLASH) ---------------- */
 
-const img = (text) =>
-  `https://source.unsplash.com/800x600/?${encodeURIComponent(text)}`;
+onError={(e) =>
+  (e.target.src =
+    "https://images.unsplash.com/photo-1566073771259-6a8506099945")
+}
 
 /* ---------------- NAVBAR ---------------- */
 
