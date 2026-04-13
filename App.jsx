@@ -130,7 +130,7 @@ function Contact() {
 
       <div className="box">
         <p>📍 Kharar, Mohali, Punjab</p>
-        <p>📞 +91 99999 99999</p>
+        <p>📞 098883 99901</p>
         <p>📧 hotelcentra@gmail.com</p>
       </div>
     </div>
